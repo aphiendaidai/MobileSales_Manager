@@ -97,7 +97,7 @@ public class XuatHoaDonView extends JDialog {
         txtHoaDon.setContentType("text/html");
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
         LocalDateTime now = LocalDateTime.now();
-        DecimalFormat dcf = new DecimalFormat("###,### USD");
+        DecimalFormat dcf = new DecimalFormat("###,### VNĐ");
 
         String hd = "<style> "
                 + "table {"
